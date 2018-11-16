@@ -1,0 +1,65 @@
+*{
+		box-sizing: border-box;
+}
+.container-fluid{
+	background-color: gray;
+	height: 25%;
+	padding:0 0 0 0 !important;
+}
+body{
+	margin:0;
+}
+div .navbar-brand{
+	font-weight: bold;
+	font-family: cursive;
+}
+.menu h2{
+	font-weight: bold;
+	text-align: center;
+	font-family: cursive;
+	margin:2%;
+}
+.container{
+	background-color: gray;
+}
+p{
+	
+
+	color:black;
+	font-family:cursive;
+}
+span.text-center{
+	position: absolute;
+	margin-left:35%;
+}
+#div-container{
+	background-color: white;
+}
+section{
+	border: 3px 3px 3px 3px solid black;
+}
+#section1{
+	margin:15px 15px 15px 15px ;
+	min-width: 100%;
+}
+#section2{
+	margin:15px 15px 15px 15px ;
+	min-width: 100%;
+}
+#section3{
+	margin:15px 15px 15px 15px ;
+	min-width: 100%;
+}
+button{
+	position:absolute;
+	top:-65px;
+	right: 0px;
+	min-height: 63px;
+}
+@media(max-width: 576px)
+{
+div.col-12{
+ 		max-width: 90%;
+ 		margin-left: 5%;		
+}
+}
